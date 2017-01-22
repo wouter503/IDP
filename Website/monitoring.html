@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Zorggroep monitor</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<div id="kop"><h1>Zorggroep monitor</h1></div>
+
+<div id="system-up"><div id="system-up2"><h2>
+<img src="led-green.png" style="width:10px; height:10px; margin-right: 5px;">woning 1
+<br><img src="led-green.png" style="width:10px; height:10px; margin-right: 5px;">woning 2
+<br><img src="led-red.png" style="width:10px; height:10px; margin-right: 5px;">woning 3
+<br><img src="led-red.png" style="width:10px; height:10px; margin-right: 5px;">woning 4
+<br><img src="led-red.png" style="width:10px; height:10px; margin-right: 5px;">woning 5
+<br><img src="led-red.png" style="width:10px; height:10px; margin-right: 5px;">woning 6
+<br><img src="led-red.png" style="width:10px; height:10px; margin-right: 5px;">woning 7
+<br><img src="led-red.png" style="width:10px; height:10px; margin-right: 5px;">woning 8
+<br><img src="led-red.png" style="width:10px; height:10px; margin-right: 5px;">woning 9
+<br><img src="led-red.png" style="width:10px; height:10px; margin-right: 5px;">woning 10
+</h2></div>
+</div>
+
+<div id="camera">
+<div id="camera2"
+<form name="change">
+<SELECT NAME="options" ONCHANGE="document.getElementById('iframe').src = this.options[this.selectedIndex].value">
+<option>Kies een woning</option>
+<option value="monitoring.html">monitoring</option>
+<option value="test.html">Microsoft</option>
+</SELECT>
+<br><iframe name="iframe" id="iframe" src=""></iframe>
+</div>
+</div>
+
+</div>
+</body>
+</html>
