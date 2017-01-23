@@ -3,8 +3,7 @@ body {
 }
 
 .container{
-	marigin-left:auto;
-	margin-right:auto;
+	margin:auto;
 }
 
 #kop{
@@ -15,51 +14,55 @@ body {
 	background: white;
 	border-style: solid;
 	border-width: 2px;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
 #system-up{
 	width: 13%;
-	height: 500px;
+	height: 600px;
 	border-style: solid;
 	border-top-style:none;
 	background: white;
 	margin-top:-2px;
 	border-width: 2px;
 	float: left;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
 #system-up2{
-	width: 80%;
-	height: 500px;
-	margin-top: 50px;
+	width: 85%;
+	height: 550px;
+	margin-top: 25px;
 	float: left;
 	margin-right: auto;
 	margin-left: 5%;
+	overflow-y:scroll
 }
 
 #camera{
 	width: 84%;
 	margin-left: 2%;
 	margin-top: 20px;
-	height: 480px;
+	height: 580px;
 	background: white;
 	float: left;
-	border-style: solid;
+	border-style: none;
 	border-width: 2px;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
 #camera2{
 	width: 96%;
 	margin-left: 3%;
 	margin-top: 20px;
-	height: 450px;
+	height: 550px;
 	background: white;
 	float: left;
 }
 
 #iframe{
 	width: 75%; 
-	height: 400px;
+	height: 500px;
 }
 
 h1 {
@@ -73,3 +76,22 @@ h2 {
 	 margin-left: 3%;
 	 margin-top: 0px;
  }
+
+ button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #33ccff;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+button:hover,.form button:active,.form button:focus {
+  background: #0099cc;
+}
