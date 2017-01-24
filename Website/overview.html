@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Zorggroep monitor</title>
+	<meta charset="utf-8" /> 
+	<link rel="stylesheet" href="overview_style.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick-theme.css"/>
+	<script type="text/javascript" src="slick.js"></script>
+</head>
+<body>
+<br>
+<div>
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <iframe name="iframe1" id="iframe" src="camera1.html" style="width: 40%; height: 200px; margin: auto; margin-right: 3%;margin-left: 6%; border:none; box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);"></iframe>
+	<iframe name="iframe2" id="iframe" src="camera2.html" style="width: 40%; height: 200px; margin: auto; margin-right: 3%;margin-left: 3%; border:none; box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);"></iframe>
+	<br>
+	<iframe name="iframe3" id="iframe" src="placeholder.html" style="width: 40%; height: 200px; margin: auto; margin-right: 3%;margin-left: 6%; border:none; box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);"></iframe>
+	<iframe name="iframe4" id="iframe" src="placeholder.html" style="width: 40%; height: 200px; margin: auto; margin-right: 3%;margin-left: 3%; border:none; box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);"></iframe>
+  </div>
+
+  <div class="mySlides fade">
+    <iframe name="iframe1" id="iframe" src="placeholder.html" style="width: 40%; height: 200px; margin: auto; margin-right: 3%;margin-left: 6%; border:none; box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);"></iframe>
+	<iframe name="iframe2" id="iframe" src="placeholder.html" style="width: 40%; height: 200px; margin: auto; margin-right: 3%;margin-left: 3%; border:none; box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);"></iframe>
+	<br>
+	<iframe name="iframe3" id="iframe" src="placeholder.html" style="width: 40%; height: 200px; margin: auto; margin-right: 3%;margin-left: 6%; border:none; box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);"></iframe>
+	<iframe name="iframe4" id="iframe" src="placeholder.html" style="width: 40%; height: 200px; margin: auto; margin-right: 3%;margin-left: 3%; border:none; box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);"></iframe>
+  </div>
+</div>
+</div>
+<br>
+
+<script>
+$( document ).ready(function() {
+	$('.slideshow-container').slick({
+		dots: true,
+		autoplay: true,
+		autoplaySpeed: 5000,
+		swipe: false,
+		arrows: false,
+	});
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<html>
+<head>
+</head>
+<body>
+	<ul id='mylist'>
+		<li id='1'><img src='led-red.png'>kids.jpg</li>
+		<li id='2'><img src='led-green.png'>apple.jpg</li>
+		<li id='3'><img src='led-red.png'>toys.jpg</li>
+		<li id='4'><img src='led-green.png'>love.jpg</li>
+	</ul>
+
+	<script>
+		$(document).ready(function() {
+
+		    var ul = $('ul#mylist'),
+		    li = ul.children('li');
+
+		    li.detach().sort(function(a,b) {
+		        return alphabetical($(a).children('img').attr('src'), $(b).children('img').attr('src'));
+		    });
+
+		    ul.append(li);
+		});
+
+		function alphabetical(a, b)
+		{
+		     var A = a.toLowerCase();
+		     var B = b.toLowerCase();
+		     if (A < B){
+		        return -1;
+ 		}else if (A > B){
+       		return  1;
+     	}else{
+       		return 0;
+     	}
+     }
+	</script>
+</body>
+</html>
