@@ -1,3 +1,7 @@
+body {
+  background-color: #caebf2;
+}
+
 .slideshow-container {
   max-width: 1000px;
   position: relative;
