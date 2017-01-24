@@ -5,6 +5,7 @@
   padding: 8% 0 0;
   margin: auto;
 }
+
 .form {
   position: relative;
   z-index: 1;
@@ -98,3 +99,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;      
 }
+
+h1 {
+   font-size: 9px;
+   font-family: "Lato", serif;
+   float: right;
+   color: #595959;
+ }
