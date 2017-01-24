@@ -18,7 +18,7 @@
 .form input {
   font-family: "Roboto", sans-serif;
   outline: 0;
-  background: #f2f2f2;
+  background: #f1f1f1;
   width: 100%;
   border: 0;
   margin: 0 0 15px;
@@ -30,7 +30,7 @@
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   outline: 0;
-  background: #33ccff;
+  background: #ff3b3f;
   width: 100%;
   border: 0;
   padding: 15px;
@@ -41,7 +41,7 @@
   cursor: pointer;
 }
 .form button:hover,.form button:active,.form button:focus {
-  background: #0099cc;
+  background: #ff4d4f;
 }
 .form .message {
   margin: 15px 0 0;
@@ -89,11 +89,11 @@
   color: #EF3B3A;
 }
 body {
-  background: #1affff; /* fallback for old browsers */
-  background: -webkit-linear-gradient(right, #1affff, #66ffff);
-  background: -moz-linear-gradient(right, #1affff, #66ffff);
-  background: -o-linear-gradient(right, #1affff, #66ffff);
-  background: linear-gradient(to left, #1affff, #66ffff);
+  background: #a9a9a9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(right, #a9a9a9, #999999);
+  background: -moz-linear-gradient(right, #a9a9a9, #999999);
+  background: -o-linear-gradient(right, #a9a9a9, #999999);
+  background: linear-gradient(to left, #a9a9a9, #999999);
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;      
