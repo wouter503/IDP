@@ -1,3 +1,7 @@
 body {
-	background: white;
+	background: #efefef;
+}
+h1{
+	font-family: "Lato", serif;
+	font-size: 24px;
 }
