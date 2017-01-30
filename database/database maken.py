@@ -1,7 +1,7 @@
 from psycopg2 import connect
 from psycopg2.extensions import ISOLATION_LEVEL_AUTOCOMMIT
 
-con = connect("user=postgres host=localhost password=donaldniek")
+con = connect("dbname=Zorggroep user=postgres host=172.24.1.1 password=admin")
 
 dbname = "abcd"
 
