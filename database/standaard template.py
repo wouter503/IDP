@@ -1,6 +1,6 @@
 import psycopg2 as psy2
-con = psy2.connect("dbname=dezorggroepdatabase user=postgres host=localhost password=donaldniek")
-dbname = "dezorggroepdatabase"
+con = psy2.connect("dbname=Zorggroep user=postgres host=172.24.1.1 password=admin")
+dbname = "Zorggroep"
 cur = con.cursor()
 #
 con.commit()
